@@ -16,7 +16,7 @@ In order to run the code:
 2) Run car_speed_data_prep.ipynb to extract frames from the video and create a csv file in the format of frame_location-index-speed
 3) pytorch_speed_nn.ipynb is the architecture defined by the above article.
 4) I have created another architecture in addition to the architecture above. In addition to the Optical-Flow I've also added difference between two frames in the network in order to make it understand more representation of the data, have a look at pytorch_speed_nn2.ipynb
-5) I have created a code so that you can test the model on the test video and save the output in the txt file.
+5) I have created a code in the last cell of pytorch_speed_nn.ipynb and pytorch_speed_nn2.ipynb so that you can test the model on the test video and save the output in the txt file.
 
 
 
